@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  /* color: #fff; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.wrap {
+  display: flex;
+  gap: 40px;
+}
+
+.box {
+  min-width: 420px;
+  min-height: 500px;
+
+  max-width: 600px;
+  max-height: 700px;
+
+
+
+  resize: both;
+  overflow: hidden;
+
+
+  gap: 25px;
+
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxleft {
+  align-items: flex-start;
+}
+
+.title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 32px;
+}
+
+input {
+  padding: 10px 15px;
+  width: 90%;
+  height: 50px;
+  border-radius: 15px;
+
+  outline: none;
+
+  font-size: 15px;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  word-spacing: -2px;
+
+  transition: .2s;
+}
+
+
+input::placeholder {
+  font-weight: 100;
+}
+
+.inputCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+}
+
+button {
+  padding: 15px 35px;
+  cursor: pointer;
+  background-color: rgb(31, 29, 29);
+  color: white;
+  font-family: serif;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+  transition: .2s;
+  border: 1px solid transparent;
+}
+
+button:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+button:active {
+  border: 1px solid black;
+  background-color: rgb(227, 227, 227);
+  color: black;
+
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* .res {
+  display: flex;
+  flex-direction: column;
+} */
+
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+/* .res::before {
+  content: "";
+  position: relative;
+  top: -10px;
+  height: 3px;
+  width: 380px;
+  margin: 0 auto;
+  background-color: gray;
+
+  border-radius: 50px;
+}
+*/
+/* 
+
+
+.res span {
+  color: green;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+.boxleft .narx {
+  color: black;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+}
